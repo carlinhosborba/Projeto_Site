@@ -1,3 +1,8 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Ajuste o peso da fonte conforme necessário */
+    color: #333; /* Escolha a cor que preferir */
+}
 * {
     margin: 0;
     padding: 0;
