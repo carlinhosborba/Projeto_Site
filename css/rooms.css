@@ -124,3 +124,20 @@ form button {
 form button:hover {
     background-color: #f0c000;
 }
+
+#backButton {
+    position: absolute;
+    top: 15px; 
+    left: 15px; 
+    font-size: 1.8rem; 
+    text-decoration: none; 
+    color: #ffd700; 
+    background: none; 
+    border: none;
+    cursor: pointer; 
+    transition: color 0.3s ease-in-out; 
+}
+
+#backButton:hover {
+    color: #f0c000; 
+}
