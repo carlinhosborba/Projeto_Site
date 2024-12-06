@@ -1,21 +1,20 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #414042; /* Fundo escuro */
-    color: #ffffff; /* Texto claro */
+    background-color: #414042; 
+    color: #ffffff; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #333;
     padding: 20px;
@@ -24,7 +23,7 @@ header {
 
 header h1 {
     font-size: 2rem;
-    color: #ffd700; /* Dourado */
+    color: #ffd700; 
 }
 
 header p {
@@ -32,31 +31,31 @@ header p {
     color: #ffffff;
 }
 
-/* Sessões */
+
 section {
     padding: 20px;
 }
 
 section h2 {
     font-size: 1.5rem;
-    color: #ffd700; /* Dourado */
+    color: #ffd700; 
     margin-bottom: 10px;
 }
 
 #roomsList {
-    background-color: #ffffff; /* Fundo claro */
-    color: #333; /* Texto escuro */
+    background-color: #ffffff; 
+    color: #333; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Botão flutuante */
+
 #createRoomButton {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ffd700; /* Dourado */
+    background-color: #ffd700; 
     color: #333;
     font-size: 2rem;
     width: 50px;
@@ -69,10 +68,10 @@ section h2 {
 }
 
 #createRoomButton:hover {
-    background-color: #f0c000; /* Dourado mais claro */
+    background-color: #f0c000; 
 }
 
-/* Modal de criação de sala */
+
 #createRoomModal {
     position: fixed;
     top: 50%;
