@@ -1,4 +1,3 @@
-/* Reset básico */
 body, h1, h2, p, form, input, textarea, button, a {
     margin: 0;
     padding: 0;
@@ -8,15 +7,15 @@ body, h1, h2, p, form, input, textarea, button, a {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: #414042; /* Fundo escuro */
-    color: #ffffff; /* Texto claro */
+    background-color: #414042; 
+    color: #ffffff; 
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #333;
     color: #ffffff;
@@ -31,7 +30,7 @@ header h1 {
 }
 
 header a {
-    color: #ffd700; /* Dourado */
+    color: #ffd700; 
     text-decoration: none;
     background-color: #414042;
     padding: 8px 15px;
@@ -43,7 +42,7 @@ header a:hover {
     background-color: #333;
 }
 
-/* Conteúdo principal */
+
 main {
     display: flex;
     flex-direction: column;
@@ -53,8 +52,8 @@ main {
 }
 
 #messagesContainer {
-    background-color: #ffffff; /* Fundo claro */
-    color: #333; /* Texto escuro */
+    background-color: #ffffff; 
+    color: #333; 
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px;
@@ -69,20 +68,20 @@ main {
 }
 
 #messagesContainer::-webkit-scrollbar-thumb {
-    background-color: #ffd700; /* Dourado */
+    background-color: #ffd700; 
     border-radius: 4px;
 }
 
 #messagesContainer::-webkit-scrollbar-thumb:hover {
-    background-color: #f0c000; /* Dourado mais claro */
+    background-color: #f0c000; 
 }
 
-/* Formulário */
+
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: #ffffff; /* Fundo claro */
+    background-color: #ffffff; 
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
@@ -90,7 +89,7 @@ form {
 }
 
 form label {
-    color: #333; /* Cor escura para contraste */
+    color: #333; 
     font-size: 1rem;
     font-weight: bold;
 }
@@ -103,10 +102,10 @@ textarea, input {
     border-radius: 4px;
     resize: none;
     outline: none;
-    background-color: #f9f9f9; /* Fundo leve */
-    color: #333; /* Texto escuro */
-    width: 100%; /* Garante largura uniforme */
-    max-width: 100%; /* Limita a largura máxima */
+    background-color: #f9f9f9; 
+    color: #333; 
+    width: 100%; 
+    max-width: 100%; 
     opacity: 0;
     transform: translateY(20px);
     animation: slideIn 0.4s forwards ease-in-out;
@@ -118,8 +117,8 @@ textarea:focus, input:focus {
 }
 
 button {
-    background-color: #ffd700; /* Dourado */
-    color: #ffffff;
+    background-color: #ffd700; 
+    color: #000000;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -129,10 +128,10 @@ button {
 }
 
 button:hover {
-    background-color: #f0c000; /* Dourado mais claro */
+    background-color: #f0c000; 
 }
 
-/* Animação */
+
 @keyframes slideIn {
     0% {
         opacity: 0;
@@ -144,7 +143,7 @@ button:hover {
     }
 }
 
-/* Rodapé */
+
 footer {
     background-color: #333;
     color: #fff;
