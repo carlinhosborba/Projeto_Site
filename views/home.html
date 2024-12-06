@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Rede Social</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <header>
@@ -13,24 +13,34 @@
     </header>
 
     <section>
-        <h2>Criar nova sala</h2>
-        <form id="createRoomForm">
-            <label for="roomName">Nome da sala:</label>
-            <input type="text" id="roomName" placeholder="Digite o nome da sala" required>
-            <br>
-            <label for="roomDescription">Descrição (opcional):</label>
-            <textarea id="roomDescription" placeholder="Descrição da sala (opcional)"></textarea>
-            <br>
-            <button type="submit">Criar Sala</button>
-        </form>
-    </section>
-    <section>
         <h2>Salas disponíveis</h2>
         <div id="roomsList">
+            
         </div>
     </section>
+
+    
+    <button id="createRoomButton">+</button>
+
+    
+    <div id="createRoomModal" class="hidden">
+        <section>
+            <h2>Criar nova sala</h2>
+            <form id="createRoomForm">
+                <label for="roomName">Nome da sala:</label>
+                <input type="text" id="roomName" placeholder="Digite o nome da sala" required>
+                <br>
+                <label for="roomDescription">Descrição (opcional):</label>
+                <textarea id="roomDescription" placeholder="Descrição da sala (opcional)"></textarea>
+                <br>
+                <button type="submit">Criar Sala</button>
+            </form>
+        </section>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/parse@3.0.0/dist/parse.min.js"></script>
     <script src="../config/back4app_config.js"></script>
     <script src="../js/main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
